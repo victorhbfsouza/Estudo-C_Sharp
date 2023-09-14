@@ -1,0 +1,4 @@
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\06Encapsulamento\obj\Debug\net7.0\06Encapsulamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\06Encapsulamento\obj\Debug\net7.0\06Encapsulamento.AssemblyInfoInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\06Encapsulamento\obj\Debug\net7.0\06Encapsulamento.AssemblyInfo.cs
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\06Encapsulamento\obj\Debug\net7.0\06Encapsulamento.csproj.CoreCompileInputs.cache

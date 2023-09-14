@@ -1,0 +1,14 @@
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\obj\Debug\net7.0\13Abstração.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\obj\Debug\net7.0\13Abstração.AssemblyInfoInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\obj\Debug\net7.0\13Abstração.AssemblyInfo.cs
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\obj\Debug\net7.0\13Abstração.csproj.CoreCompileInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\bin\Debug\net7.0\13Abstração.exe
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\bin\Debug\net7.0\13Abstração.deps.json
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\bin\Debug\net7.0\13Abstração.runtimeconfig.json
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\bin\Debug\net7.0\13Abstração.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\bin\Debug\net7.0\13Abstração.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\obj\Debug\net7.0\13Abstração.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\obj\Debug\net7.0\refint\13Abstração.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\obj\Debug\net7.0\13Abstração.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\obj\Debug\net7.0\13Abstração.genruntimeconfig.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\13Abstração\obj\Debug\net7.0\ref\13Abstração.dll

@@ -1,0 +1,4 @@
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\08GetSet\obj\Debug\net7.0\08GetSet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\08GetSet\obj\Debug\net7.0\08GetSet.AssemblyInfoInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\08GetSet\obj\Debug\net7.0\08GetSet.AssemblyInfo.cs
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\08GetSet\obj\Debug\net7.0\08GetSet.csproj.CoreCompileInputs.cache

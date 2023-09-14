@@ -1,0 +1,14 @@
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\obj\Debug\net7.0\04ExercicioIMC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\obj\Debug\net7.0\04ExercicioIMC.AssemblyInfoInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\obj\Debug\net7.0\04ExercicioIMC.AssemblyInfo.cs
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\obj\Debug\net7.0\04ExercicioIMC.csproj.CoreCompileInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\bin\Debug\net7.0\04ExercicioIMC.exe
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\bin\Debug\net7.0\04ExercicioIMC.deps.json
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\bin\Debug\net7.0\04ExercicioIMC.runtimeconfig.json
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\bin\Debug\net7.0\04ExercicioIMC.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\bin\Debug\net7.0\04ExercicioIMC.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\obj\Debug\net7.0\04ExercicioIMC.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\obj\Debug\net7.0\refint\04ExercicioIMC.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\obj\Debug\net7.0\04ExercicioIMC.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\obj\Debug\net7.0\04ExercicioIMC.genruntimeconfig.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\04ExercicioIMC\obj\Debug\net7.0\ref\04ExercicioIMC.dll

@@ -1,0 +1,14 @@
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\bin\Debug\net7.0\02Metodos.exe
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\bin\Debug\net7.0\02Metodos.deps.json
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\bin\Debug\net7.0\02Metodos.runtimeconfig.json
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\bin\Debug\net7.0\02Metodos.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\bin\Debug\net7.0\02Metodos.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\obj\Debug\net7.0\02Metodos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\obj\Debug\net7.0\02Metodos.AssemblyInfoInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\obj\Debug\net7.0\02Metodos.AssemblyInfo.cs
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\obj\Debug\net7.0\02Metodos.csproj.CoreCompileInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\obj\Debug\net7.0\02Metodos.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\obj\Debug\net7.0\refint\02Metodos.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\obj\Debug\net7.0\02Metodos.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\obj\Debug\net7.0\02Metodos.genruntimeconfig.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\02Metodos\obj\Debug\net7.0\ref\02Metodos.dll

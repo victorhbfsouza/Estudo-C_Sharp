@@ -1,0 +1,14 @@
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\bin\Debug\net7.0\12Estatico.exe
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\bin\Debug\net7.0\12Estatico.deps.json
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\bin\Debug\net7.0\12Estatico.runtimeconfig.json
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\bin\Debug\net7.0\12Estatico.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\bin\Debug\net7.0\12Estatico.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\obj\Debug\net7.0\12Estatico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\obj\Debug\net7.0\12Estatico.AssemblyInfoInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\obj\Debug\net7.0\12Estatico.AssemblyInfo.cs
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\obj\Debug\net7.0\12Estatico.csproj.CoreCompileInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\obj\Debug\net7.0\12Estatico.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\obj\Debug\net7.0\refint\12Estatico.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\obj\Debug\net7.0\12Estatico.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\obj\Debug\net7.0\12Estatico.genruntimeconfig.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\12Estatico\obj\Debug\net7.0\ref\12Estatico.dll
