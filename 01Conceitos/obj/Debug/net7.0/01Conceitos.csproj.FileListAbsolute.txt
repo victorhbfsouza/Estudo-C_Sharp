@@ -12,3 +12,17 @@ C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\01Conceitos\obj\Deb
 C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\01Conceitos\obj\Debug\net7.0\01Conceitos.pdb
 C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\01Conceitos\obj\Debug\net7.0\01Conceitos.genruntimeconfig.cache
 C:\Users\VictorHugoBorgesFran\Desktop\Orientação a objetos\01Conceitos\obj\Debug\net7.0\ref\01Conceitos.dll
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\bin\Debug\net7.0\01Conceitos.exe
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\bin\Debug\net7.0\01Conceitos.deps.json
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\bin\Debug\net7.0\01Conceitos.runtimeconfig.json
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\bin\Debug\net7.0\01Conceitos.dll
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\bin\Debug\net7.0\01Conceitos.pdb
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\obj\Debug\net7.0\01Conceitos.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\obj\Debug\net7.0\01Conceitos.AssemblyInfoInputs.cache
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\obj\Debug\net7.0\01Conceitos.AssemblyInfo.cs
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\obj\Debug\net7.0\01Conceitos.csproj.CoreCompileInputs.cache
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\obj\Debug\net7.0\01Conceitos.dll
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\obj\Debug\net7.0\refint\01Conceitos.dll
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\obj\Debug\net7.0\01Conceitos.pdb
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\obj\Debug\net7.0\01Conceitos.genruntimeconfig.cache
+c:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\01Conceitos\obj\Debug\net7.0\ref\01Conceitos.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\01Conceitos\\01Conceitos.csproj": {}
+    "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\Udemy\\PrimeiroProjeto\\PrimeiroProjeto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\01Conceitos\\01Conceitos.csproj": {
+    "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\Udemy\\PrimeiroProjeto\\PrimeiroProjeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\01Conceitos\\01Conceitos.csproj",
-        "projectName": "01Conceitos",
-        "projectPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\01Conceitos\\01Conceitos.csproj",
+        "projectUniqueName": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\Udemy\\PrimeiroProjeto\\PrimeiroProjeto.csproj",
+        "projectName": "PrimeiroProjeto",
+        "projectPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\Udemy\\PrimeiroProjeto\\PrimeiroProjeto.csproj",
         "packagesPath": "C:\\Users\\VictorHugoBorgesFran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\01Conceitos\\obj\\",
+        "outputPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\Udemy\\PrimeiroProjeto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VictorHugoBorgesFran\\AppData\\Roaming\\NuGet\\NuGet.Config",
