@@ -19,10 +19,19 @@ namespace Banco.Models
         #endregion
 
         #region Construtores
+        public ContaBancaria(Titular titular)
+        {
+            Titular = titular;
+            Saldo = 0;
+           // DataAbertura = DataTime.Now;
+        }
+
+
         public ContaBancaria(Titular titular, double saldoAbertura)
         {
             Titular = titular;
             Saldo = saldoAbertura;
+            //DataAbertura = DataTime.Now;
         }
 
         #endregion
