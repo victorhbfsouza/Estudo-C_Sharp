@@ -1,0 +1,14 @@
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\bin\Debug\net7.0\Guids.exe
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\bin\Debug\net7.0\Guids.deps.json
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\bin\Debug\net7.0\Guids.runtimeconfig.json
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\bin\Debug\net7.0\Guids.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\bin\Debug\net7.0\Guids.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\obj\Debug\net7.0\Guids.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\obj\Debug\net7.0\Guids.AssemblyInfoInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\obj\Debug\net7.0\Guids.AssemblyInfo.cs
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\obj\Debug\net7.0\Guids.csproj.CoreCompileInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\obj\Debug\net7.0\Guids.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\obj\Debug\net7.0\refint\Guids.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\obj\Debug\net7.0\Guids.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\obj\Debug\net7.0\Guids.genruntimeconfig.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Guids\obj\Debug\net7.0\ref\Guids.dll

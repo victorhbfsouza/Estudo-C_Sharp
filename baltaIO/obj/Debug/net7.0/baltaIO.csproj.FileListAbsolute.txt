@@ -1,0 +1,4 @@
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\obj\Debug\net7.0\baltaIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\obj\Debug\net7.0\baltaIO.AssemblyInfoInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\obj\Debug\net7.0\baltaIO.AssemblyInfo.cs
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\obj\Debug\net7.0\baltaIO.csproj.CoreCompileInputs.cache
