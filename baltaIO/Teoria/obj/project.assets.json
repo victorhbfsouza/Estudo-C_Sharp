@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Guids\\Guids.csproj",
+      "projectUniqueName": "c:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Teoria\\Guids.csproj",
       "projectName": "Guids",
-      "projectPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Guids\\Guids.csproj",
+      "projectPath": "c:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Teoria\\Guids.csproj",
       "packagesPath": "C:\\Users\\VictorHugoBorgesFran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Guids\\obj\\",
+      "outputPath": "c:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Teoria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\VictorHugoBorgesFran\\AppData\\Roaming\\NuGet\\NuGet.Config",

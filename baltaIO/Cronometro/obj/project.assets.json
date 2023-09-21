@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Cronometro\\Cronometro.csproj",
+      "projectUniqueName": "c:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Cronometro\\Cronometro.csproj",
       "projectName": "Cronometro",
-      "projectPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Cronometro\\Cronometro.csproj",
+      "projectPath": "c:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Cronometro\\Cronometro.csproj",
       "packagesPath": "C:\\Users\\VictorHugoBorgesFran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Cronometro\\obj\\",
+      "outputPath": "c:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Cronometro\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\VictorHugoBorgesFran\\AppData\\Roaming\\NuGet\\NuGet.Config",

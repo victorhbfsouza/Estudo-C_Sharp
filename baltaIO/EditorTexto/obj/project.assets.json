@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\EditorTexto\\EditorTexto.csproj",
+      "projectUniqueName": "c:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\EditorTexto\\EditorTexto.csproj",
       "projectName": "EditorTexto",
-      "projectPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\EditorTexto\\EditorTexto.csproj",
+      "projectPath": "c:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\EditorTexto\\EditorTexto.csproj",
       "packagesPath": "C:\\Users\\VictorHugoBorgesFran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\EditorTexto\\obj\\",
+      "outputPath": "c:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\EditorTexto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\VictorHugoBorgesFran\\AppData\\Roaming\\NuGet\\NuGet.Config",

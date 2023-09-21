@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "c:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Calculadora\\Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Calculadora\\Calculadora.csproj",
+      "projectPath": "c:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Calculadora\\Calculadora.csproj",
       "packagesPath": "C:\\Users\\VictorHugoBorgesFran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Calculadora\\obj\\",
+      "outputPath": "c:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\baltaIO\\Calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\VictorHugoBorgesFran\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,14 @@
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\bin\Debug\net7.0\EditorHTML.exe
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\bin\Debug\net7.0\EditorHTML.deps.json
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\bin\Debug\net7.0\EditorHTML.runtimeconfig.json
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\bin\Debug\net7.0\EditorHTML.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\bin\Debug\net7.0\EditorHTML.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\obj\Debug\net7.0\EditorHTML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\obj\Debug\net7.0\EditorHTML.AssemblyInfoInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\obj\Debug\net7.0\EditorHTML.AssemblyInfo.cs
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\obj\Debug\net7.0\EditorHTML.csproj.CoreCompileInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\obj\Debug\net7.0\EditorHTML.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\obj\Debug\net7.0\refint\EditorHTML.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\obj\Debug\net7.0\EditorHTML.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\obj\Debug\net7.0\EditorHTML.genruntimeconfig.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\EditorHTML\obj\Debug\net7.0\ref\EditorHTML.dll
