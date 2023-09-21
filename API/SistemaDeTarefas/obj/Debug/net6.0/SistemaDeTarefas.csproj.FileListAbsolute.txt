@@ -1,0 +1,9 @@
+C:\Users\VictorHugoBorgesFran\Desktop\API_C-SHARP\SistemaDeTarefas\SistemaDeTarefas\obj\Debug\net6.0\SistemaDeTarefas.csproj.AssemblyReference.cache
+C:\Users\VictorHugoBorgesFran\Desktop\API_C-SHARP\SistemaDeTarefas\SistemaDeTarefas\obj\Debug\net6.0\SistemaDeTarefas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VictorHugoBorgesFran\Desktop\API_C-SHARP\SistemaDeTarefas\SistemaDeTarefas\obj\Debug\net6.0\SistemaDeTarefas.AssemblyInfoInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\API_C-SHARP\SistemaDeTarefas\SistemaDeTarefas\obj\Debug\net6.0\SistemaDeTarefas.AssemblyInfo.cs
+C:\Users\VictorHugoBorgesFran\Desktop\API_C-SHARP\SistemaDeTarefas\SistemaDeTarefas\obj\Debug\net6.0\SistemaDeTarefas.csproj.CoreCompileInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\API_C-SHARP\SistemaDeTarefas\SistemaDeTarefas\obj\Debug\net6.0\SistemaDeTarefas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VictorHugoBorgesFran\Desktop\API_C-SHARP\SistemaDeTarefas\SistemaDeTarefas\obj\Debug\net6.0\SistemaDeTarefas.RazorAssemblyInfo.cache
+C:\Users\VictorHugoBorgesFran\Desktop\API_C-SHARP\SistemaDeTarefas\SistemaDeTarefas\obj\Debug\net6.0\SistemaDeTarefas.RazorAssemblyInfo.cs
+C:\Users\VictorHugoBorgesFran\Desktop\API_C-SHARP\SistemaDeTarefas\SistemaDeTarefas\obj\Debug\net6.0\SistemaDeTarefas.MvcApplicationPartsAssemblyInfo.cs
