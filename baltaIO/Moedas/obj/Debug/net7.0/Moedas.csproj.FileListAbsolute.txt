@@ -1,0 +1,14 @@
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\obj\Debug\net7.0\Moedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\obj\Debug\net7.0\Moedas.AssemblyInfoInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\obj\Debug\net7.0\Moedas.AssemblyInfo.cs
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\obj\Debug\net7.0\Moedas.csproj.CoreCompileInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\bin\Debug\net7.0\Moedas.exe
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\bin\Debug\net7.0\Moedas.deps.json
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\bin\Debug\net7.0\Moedas.runtimeconfig.json
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\bin\Debug\net7.0\Moedas.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\bin\Debug\net7.0\Moedas.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\obj\Debug\net7.0\Moedas.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\obj\Debug\net7.0\refint\Moedas.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\obj\Debug\net7.0\Moedas.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\obj\Debug\net7.0\Moedas.genruntimeconfig.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Moedas\obj\Debug\net7.0\ref\Moedas.dll
