@@ -1,0 +1,14 @@
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\bin\Debug\net7.0\Exceções.exe
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\bin\Debug\net7.0\Exceções.deps.json
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\bin\Debug\net7.0\Exceções.runtimeconfig.json
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\bin\Debug\net7.0\Exceções.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\bin\Debug\net7.0\Exceções.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\obj\Debug\net7.0\Exceções.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\obj\Debug\net7.0\Exceções.AssemblyInfoInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\obj\Debug\net7.0\Exceções.AssemblyInfo.cs
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\obj\Debug\net7.0\Exceções.csproj.CoreCompileInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\obj\Debug\net7.0\Exceções.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\obj\Debug\net7.0\refint\Exceções.dll
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\obj\Debug\net7.0\Exceções.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\obj\Debug\net7.0\Exceções.genruntimeconfig.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Estudo_POO\baltaIO\Exceções\obj\Debug\net7.0\ref\Exceções.dll
