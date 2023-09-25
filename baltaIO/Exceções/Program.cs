@@ -1,39 +1,70 @@
-﻿namespace Exceções;
+﻿using System;
 
-class Program
+namespace DotnetLists
 {
-    static void Main(string[] args)
+    class Program
     {
-        var array = new int[3];
-
-        try 
-        { 
-            //for (int i = 0; i < 10; i++)
-            //{
-            //    Console.WriteLine(array[i]);
-            //}
-            Salvar();
-
-        }
-        catch(Exception ex)
+        static void Main(string[] args)
         {
-            Console.WriteLine(ex.InnerException);
-            Console.WriteLine(ex.Message);
-            Console.WriteLine("Verifique o índice do array");
+            var arr = new int[3];
+
+            try
+            {
+                // for (var index = 0; index < 10; index++)
+                // {
+                //     // IndexOutOfRangeException
+                //     Console.WriteLine(arr[index]);
+                // }
+
+                Cadastrar("akjshdkjahsd");
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                Console.WriteLine(ex.InnerException);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Não encontrei o índice na lista");
+            }
+            catch (ArgumentNullException ex)
+            {
+                Console.WriteLine(ex.InnerException);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Falha ao cadastrar texto");
+            }
+            catch (MinhaException ex)
+            {
+                Console.WriteLine(ex.InnerException);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.QuandoAconteceu);
+                Console.WriteLine("Exceção customizada");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.InnerException);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Ops, algo deu errado!");
+            }
+            finally
+            {
+                Console.WriteLine("Chegou ao fim!");
+            }
+            
+            Console.ReadLine();
         }
-        catch(Exception ex)
+
+        private static void Cadastrar(string texto)
         {
-            Console.WriteLine(ex.InnerException);
-            Console.WriteLine(ex.Message);
-            Console.WriteLine("Ops, algo deu errado, tente novamente!");
+            if (string.IsNullOrEmpty(texto))
+                throw new MinhaException(DateTime.Now);
         }
 
-        Console.ReadLine();
-    }
+        public class MinhaException : Exception
+        {
+            public MinhaException(DateTime date)
+            {
+                QuandoAconteceu = date;
+            }
 
-    public static void Cadastrar(string texto)
-    {
-        if (string.IsNullOrEmpty(texto))
-            throw new Exception("O texto nãpo pode ser nulo ou vazio.");
+            public DateTime QuandoAconteceu { get; set; }
+        }
     }
 }
