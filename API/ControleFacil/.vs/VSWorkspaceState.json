@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\ControleFacil.Api",
+    "\\src\\ControleFacil.Api\\Migrations"
+  ],
+  "SelectedNode": "\\src\\ControleFacil.Api\\Migrations\\ApplicationContextModelSnapshot.cs",
+  "PreviewInSolutionExplorer": false
+}
