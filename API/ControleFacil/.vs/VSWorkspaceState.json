@@ -3,8 +3,9 @@
     "",
     "\\src",
     "\\src\\ControleFacil.Api",
+    "\\src\\ControleFacil.Api\\Domain",
     "\\src\\ControleFacil.Api\\Migrations"
   ],
-  "SelectedNode": "\\src\\ControleFacil.Api\\Migrations\\ApplicationContextModelSnapshot.cs",
+  "SelectedNode": "\\src\\ControleFacil.Api\\Domain\\Interfaces",
   "PreviewInSolutionExplorer": false
 }
