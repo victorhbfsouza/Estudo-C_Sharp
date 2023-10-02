@@ -2,7 +2,7 @@
 <h3>Repositório criado para o estudo da linguagem de programação c#</h3>
 
 <h4>Linguagem e tecnologias utilizadas</h4>
-<div align="center">
+<div>
   <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white">
   <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
@@ -15,7 +15,7 @@
 
 <h4>Cursos:</h4>
   <img src="https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white">
-  <img src="https://avatars.githubusercontent.com/u/20651926?s=200&v=4">
+  <img src="https://github.com/victorhbfsouza/Estudo-C_Sharp/blob/main/baltaIO/Balta.jpeg">
 
 <h4>Certificados:</h4>
 <div>
