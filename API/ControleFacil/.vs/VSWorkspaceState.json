@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\Contract",
+    "\\src\\Contract\\Usuario",
     "\\src\\ControleFacil.Api",
-    "\\src\\ControleFacil.Api\\Domain",
-    "\\src\\ControleFacil.Api\\Migrations"
+    "\\src\\ControleFacil.Api\\Domain"
   ],
-  "SelectedNode": "\\src\\ControleFacil.Api\\Domain\\Interfaces",
+  "SelectedNode": "\\src\\Contract\\Usuario\\UsuarioRequestContract.cs",
   "PreviewInSolutionExplorer": false
 }
