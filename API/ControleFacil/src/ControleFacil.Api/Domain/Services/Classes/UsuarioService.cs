@@ -27,14 +27,61 @@ namespace ControleFacil.Api.Domain.Services.Classes
             _mapper = mapper;
         }
 
+        public Task<UsuarioLoginResponseContract> Autenticar(UsuarioLoginRequestContract usuarioLoginRequestContract)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<UsuarioResponseContract> Adicionar(UsuarioRequestContract entidade, long idUsuario)
         {
             var usuario = _mapper.Map<Usuario>(entidade);
 
             usuario.Senha = GerarHashSenha(usuario.Senha);
 
+            usuario.DataCadastro = DateTime.Now;
+
             await _usuarioRepository.Adicionar(usuario);
 
+            return _mapper.Map<UsuarioResponseContract>(usuario);
+        }
+
+        public async Task<UsuarioResponseContract> Atualizar(long id, UsuarioRequestContract entidade, long idUsuario)
+        {
+            _ = await Obter(id) ?? throw new Exception("Usuario não encontrato para atualização.");
+
+            var usuario = _mapper.Map<Usuario>(entidade);
+            usuario.Id = id;
+            usuario.Senha = GerarHashSenha(entidade.Senha);
+
+            usuario = await _usuarioRepository.Atualizar(usuario);
+
+            return _mapper.Map<UsuarioResponseContract>(usuario);
+
+        }
+
+        public async Task Inativar(long id, long idUsuario)
+        {
+            var usuario = await _usuarioRepository.Obter(id) ?? throw new Exception("Usuario não encontrato para inativação.");
+
+            await _usuarioRepository.Deletar(_mapper.Map<Usuario>(usuario));
+        }
+
+        public async Task<IEnumerable<UsuarioResponseContract>> Obter(long idUsuario)
+        {
+            var usuarios = await _usuarioRepository.Obter();
+
+            return usuarios.Select(usuario => _mapper.Map<UsuarioResponseContract>(usuario));
+        }
+
+        public async Task<UsuarioResponseContract> Obter(long id, long idUsuario)
+        {
+            var usuario = await _usuarioRepository.Obter(id);
+            return _mapper.Map<UsuarioResponseContract>(usuario);
+        }
+
+        public async Task<UsuarioResponseContract> Obter(string email)
+        {
+            var usuario = await _usuarioRepository.Obter(email);
             return _mapper.Map<UsuarioResponseContract>(usuario);
         }
 
@@ -46,34 +93,10 @@ namespace ControleFacil.Api.Domain.Services.Classes
             {
                 byte[] bytesSenha = Encoding.UTF8.GetBytes(senha);
                 byte[] bytesHashSenha = sha256.ComputeHash(bytesSenha);
-                hashSenha = BitConverter.ToString(bytesHashSenha).ToLower();
+                hashSenha = BitConverter.ToString(bytesHashSenha).Replace("-", "").ToLower();
             }
             return hashSenha;
         }
 
-        public Task<UsuarioResponseContract> Atualizar(long id, UsuarioRequestContract entidade, long idUsuario)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<UsuarioLoginResponseContract> Autenticar(UsuarioLoginRequestContract usuarioLoginRequestContract)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<UsuarioResponseContract> Inativar(long id, long idUsuario)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<UsuarioResponseContract>> Obter(long idUsuario)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<UsuarioResponseContract> Obter(long id, long idUsuario)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
