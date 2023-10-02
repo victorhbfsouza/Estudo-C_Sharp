@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Authentication;
 using System.Security.Policy;
 using System.Threading.Tasks;
 using ControleFacil.Api.Contract.Usuario;
@@ -22,7 +23,26 @@ namespace ControleFacil.Api.Controllers
         }
 
         [HttpPost]
+        [Route("login")]
         [AllowAnonymous]
+        public async Task<IActionResult> Autenticar(UsuarioLoginRequestContract contrato)
+        {
+            try
+            {
+                return Ok(await _usuarioService.Autenticar(contrato));
+            }
+            catch (AuthenticationException ex)
+            {
+                return Unauthorized(new { StatusCode = 401, message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return Problem(ex.Message);
+            }
+        }
+
+        [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Adicionar(UsuarioRequestContract contrato)
         {
             try
@@ -51,7 +71,7 @@ namespace ControleFacil.Api.Controllers
 
         [HttpGet]
         [Route("{id}")]
-        [AllowAnonymous]
+        [Authorize]
         public async Task<IActionResult> Obter(long id)
         {
             try
@@ -66,7 +86,7 @@ namespace ControleFacil.Api.Controllers
 
         [HttpPut]
         [Route("{id}")]
-        [AllowAnonymous]
+        [Authorize]
         public async Task<IActionResult> Atualizar(long id, UsuarioRequestContract contrato)
         {
             try
@@ -81,7 +101,7 @@ namespace ControleFacil.Api.Controllers
 
         [HttpDelete]
         [Route("{id}")]
-        [AllowAnonymous]
+        [Authorize]
         public async Task<IActionResult> Deletar(long id)
         {
             try

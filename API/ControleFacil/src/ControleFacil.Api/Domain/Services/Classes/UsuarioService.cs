@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Intrinsics.Arm;
+using System.Security.Authentication;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,18 +19,35 @@ namespace ControleFacil.Api.Domain.Services.Classes
     {
         private readonly IUsuarioRepository _usuarioRepository;
         private readonly IMapper _mapper;
+        private readonly TokenService _tokenService;
 
         public UsuarioService(
             IUsuarioRepository usuarioRepository,
-            IMapper mapper)
+            IMapper mapper,
+            TokenService tokenService)
         {
             _usuarioRepository = usuarioRepository;
             _mapper = mapper;
+            _tokenService = tokenService;
         }
 
-        public Task<UsuarioLoginResponseContract> Autenticar(UsuarioLoginRequestContract usuarioLoginRequestContract)
+        public async Task<UsuarioLoginResponseContract> Autenticar(UsuarioLoginRequestContract usuarioLoginRequest)
         {
-            throw new NotImplementedException();
+            UsuarioResponseContract usuario = await Obter(usuarioLoginRequest.Email);
+
+            var hashSenha = GerarHashSenha(usuarioLoginRequest.Senha);
+
+            if (usuario is null || usuario.Senha != hashSenha)
+            {
+                throw new AuthenticationException("Usuario ou senha inválida.");
+            }
+
+            return new UsuarioLoginResponseContract
+            {
+                Id = usuario.Id,
+                Email = usuario.Email,
+                Token = _tokenService.GerarToken(_mapper.Map<Usuario>(usuario))
+            };
         }
 
         public async Task<UsuarioResponseContract> Adicionar(UsuarioRequestContract entidade, long idUsuario)

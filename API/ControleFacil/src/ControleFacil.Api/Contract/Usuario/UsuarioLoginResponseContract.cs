@@ -9,6 +9,6 @@ namespace ControleFacil.Api.Contract.Usuario
     {
         public long Id { get; set; }
         public string Email { get; set; } = string.Empty;
-        public String TOken { get; set; } = string.Empty;
+        public String Token { get; set; } = string.Empty;
     }
 }
