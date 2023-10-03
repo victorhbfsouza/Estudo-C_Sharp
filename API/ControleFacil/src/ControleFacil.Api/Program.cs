@@ -1,6 +1,7 @@
 using System.Text;
 using AutoMapper;
 using ControleFacil.Api.AutoMapper;
+using ControleFacil.Api.Contract.Apagar;
 using ControleFacil.Api.Contract.NaturezaDeLancamento;
 using ControleFacil.Api.Data;
 using ControleFacil.Api.Domain.Classes;
@@ -36,6 +37,8 @@ static void ConfigurarInjecaoDeDependencia(WebApplicationBuilder builder)
     {
         cfg.AddProfile<UsuarioProfile>();
         cfg.AddProfile<NaturezaDeLancamentoProfile>();
+        cfg.AddProfile<ApagarProfile>();
+
 
     });
 
@@ -47,9 +50,12 @@ static void ConfigurarInjecaoDeDependencia(WebApplicationBuilder builder)
     .AddSingleton(mapper)
     .AddScoped<TokenService>()
     .AddScoped<IUsuarioRepository, UsuarioRepository>()
-    .AddScoped<INaturezaDeLancamentoRepository, NaturezaDeLancamentoRepository>()
     .AddScoped<IUsuarioService, UsuarioService>()
-    .AddScoped<IService<NaturezaDeLancamentoRequestContract, NaturezaDeLancamentoResponseContract, long>, NaturezaDeLancamentoService>();
+    .AddScoped<INaturezaDeLancamentoRepository, NaturezaDeLancamentoRepository>()
+    .AddScoped<IService<NaturezaDeLancamentoRequestContract, NaturezaDeLancamentoResponseContract, long>, NaturezaDeLancamentoService>()
+    .AddScoped<IApagarRepository, ApagarRepository>()
+    .AddScoped<IService<ApagarRequestContract, ApagarResponseContract, long>, ApagarService>();
+
 }
 
 // Configura o serviços da API.
