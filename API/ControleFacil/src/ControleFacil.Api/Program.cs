@@ -1,6 +1,7 @@
 using System.Text;
 using AutoMapper;
 using ControleFacil.Api.AutoMapper;
+using ControleFacil.Api.Contract.NaturezaDeLancamento;
 using ControleFacil.Api.Data;
 using ControleFacil.Api.Domain.Classes;
 using ControleFacil.Api.Domain.Interfaces;
@@ -47,8 +48,8 @@ static void ConfigurarInjecaoDeDependencia(WebApplicationBuilder builder)
     .AddScoped<TokenService>()
     .AddScoped<IUsuarioRepository, UsuarioRepository>()
     .AddScoped<INaturezaDeLancamentoRepository, NaturezaDeLancamentoRepository>()
-    .AddScoped<IUsuarioService, UsuarioService>();
-
+    .AddScoped<IUsuarioService, UsuarioService>()
+    .AddScoped<IService<NaturezaDeLancamentoRequestContract, NaturezaDeLancamentoResponseContract, long>, NaturezaDeLancamentoService>();
 }
 
 // Configura o serviços da API.

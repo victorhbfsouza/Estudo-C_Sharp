@@ -58,14 +58,14 @@ namespace ControleFacil.Api.Domain.Services.Classes
 
             usuario.DataCadastro = DateTime.Now;
 
-            await _usuarioRepository.Adicionar(usuario);
+            usuario = await _usuarioRepository.Adicionar(usuario);
 
             return _mapper.Map<UsuarioResponseContract>(usuario);
         }
 
         public async Task<UsuarioResponseContract> Atualizar(long id, UsuarioRequestContract entidade, long idUsuario)
         {
-            _ = await Obter(id) ?? throw new Exception("Usuario não encontrato para atualização.");
+            _ = await Obter(id) ?? throw new Exception("Usuario não encontrado para atualização.");
 
             var usuario = _mapper.Map<Usuario>(entidade);
             usuario.Id = id;
