@@ -40,7 +40,7 @@ namespace ControleFacil.Api.Domain.Services.Classes
         {
             NaturezaDeLancamento naturezaDeLancamento = await ObterPorIdVinculadoAoIdUsuario(id, idUsuario);
 
-            naturezaDeLancamento.Descricao = entidade.Descricaro;
+            naturezaDeLancamento.Descricao = entidade.Descricao;
             naturezaDeLancamento.Observacao = entidade.Observacao;
 
             naturezaDeLancamento = await _naturezaDeLancamentoRepository.Atualizar(naturezaDeLancamento);

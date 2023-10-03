@@ -7,7 +7,7 @@ namespace ControleFacil.Api.Contract.NaturezaDeLancamento
 {
     public class NaturezaDeLancamentoRequestContract
     {
-        public string Descricaro { get; set; } = string.Empty;
+        public string Descricao { get; set; } = string.Empty;
         public string Observacao { get; set; } = string.Empty;
     }
 }
