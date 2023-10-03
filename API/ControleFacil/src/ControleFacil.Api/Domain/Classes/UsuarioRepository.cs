@@ -63,8 +63,8 @@ namespace ControleFacil.Api.Domain.Classes
         public async Task<Usuario?> Obter(long id)
         {
             return await _contexto.Usuario.AsNoTracking()
-            .Where(u => u.Id == id)
-            .FirstOrDefaultAsync();
+                                            .Where(u => u.Id == id)
+                                            .FirstOrDefaultAsync();
         }
     }
 }

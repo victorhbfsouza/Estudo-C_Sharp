@@ -34,6 +34,8 @@ static void ConfigurarInjecaoDeDependencia(WebApplicationBuilder builder)
     var config = new MapperConfiguration(cfg =>
     {
         cfg.AddProfile<UsuarioProfile>();
+        cfg.AddProfile<NaturezaDeLancamentoProfile>();
+
     });
 
     IMapper mapper = config.CreateMapper();
@@ -44,6 +46,7 @@ static void ConfigurarInjecaoDeDependencia(WebApplicationBuilder builder)
     .AddSingleton(mapper)
     .AddScoped<TokenService>()
     .AddScoped<IUsuarioRepository, UsuarioRepository>()
+    .AddScoped<INaturezaDeLancamentoRepository, NaturezaDeLancamentoRepository>()
     .AddScoped<IUsuarioService, UsuarioService>();
 
 }
