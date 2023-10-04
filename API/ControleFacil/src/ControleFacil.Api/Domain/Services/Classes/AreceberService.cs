@@ -2,6 +2,7 @@ using AutoMapper;
 using ControleFacil.Api.Contract.Areceber;
 using ControleFacil.Api.Domain.Interfaces;
 using ControleFacil.Api.Domain.Services.Interfaces;
+using ControleFacil.Api.Exceptions;
 using ControleFacil.Api.Models;
 
 namespace ControleFacil.Api.Domain.Services.Classes
@@ -21,6 +22,11 @@ namespace ControleFacil.Api.Domain.Services.Classes
 
         public async Task<AreceberResponseContract> Adicionar(AreceberRequestContract entidade, long idUsuario)
         {
+
+            if (entidade.ValorOriginal < 0 || entidade.ValorRecebido < 0)
+            {
+                throw new BadRequestException("Os campos valor original e valor recebimento não podem ser negativos");
+            }
             Areceber areceber = _mapper.Map<Areceber>(entidade);
 
             areceber.DataCadastro = DateTime.Now;
@@ -34,6 +40,12 @@ namespace ControleFacil.Api.Domain.Services.Classes
 
         public async Task<AreceberResponseContract> Atualizar(long id, AreceberRequestContract entidade, long idUsuario)
         {
+
+            if (entidade.ValorOriginal < 0 || entidade.ValorRecebido < 0)
+            {
+                throw new BadRequestException("Os campos valor original e valor recebimento não podem ser negativos");
+            }
+
             Areceber areceber = await ObterPorIdVinculadoAoIdUsuario(id, idUsuario);
 
             var contrato = _mapper.Map<Areceber>(entidade);
@@ -73,7 +85,7 @@ namespace ControleFacil.Api.Domain.Services.Classes
 
             if (areceber is null || areceber.IdUsuario != idUsuario)
             {
-                throw new Exception($"Não foi encontrada nenhum título a receber pelo id {id}.");
+                throw new NotFoundException($"Não foi encontrada nenhum título a receber pelo id {id}.");
             }
 
             return areceber;
