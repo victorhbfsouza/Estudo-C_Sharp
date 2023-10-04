@@ -15,7 +15,7 @@ namespace ControleFacil.Api.Data
 
         public DbSet<Apagar> Apagar { get; set; }
 
-        public DbSet<Apagar> Areceber { get; set; }
+        public DbSet<Areceber> Areceber { get; set; }
 
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options) { }
 

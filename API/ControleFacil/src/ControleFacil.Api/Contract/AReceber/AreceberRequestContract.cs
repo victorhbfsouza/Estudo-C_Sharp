@@ -9,5 +9,6 @@ namespace ControleFacil.Api.Contract.Areceber
     {
         public double ValorRecebido { get; set; }
         public DateTime? DataRecebimento { get; set; }
+
     }
 }

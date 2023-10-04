@@ -2,6 +2,7 @@ using System.Text;
 using AutoMapper;
 using ControleFacil.Api.AutoMapper;
 using ControleFacil.Api.Contract.Apagar;
+using ControleFacil.Api.Contract.Areceber;
 using ControleFacil.Api.Contract.NaturezaDeLancamento;
 using ControleFacil.Api.Data;
 using ControleFacil.Api.Domain.Classes;
@@ -53,6 +54,8 @@ static void ConfigurarInjecaoDeDependencia(WebApplicationBuilder builder)
     .AddScoped<IUsuarioService, UsuarioService>()
     .AddScoped<INaturezaDeLancamentoRepository, NaturezaDeLancamentoRepository>()
     .AddScoped<IService<NaturezaDeLancamentoRequestContract, NaturezaDeLancamentoResponseContract, long>, NaturezaDeLancamentoService>()
+    .AddScoped<IAreceberRepository, AreceberRepository>()
+    .AddScoped<IService<AreceberRequestContract, AreceberResponseContract, long>, AreceberService>()
     .AddScoped<IApagarRepository, ApagarRepository>()
     .AddScoped<IService<ApagarRequestContract, ApagarResponseContract, long>, ApagarService>();
 
