@@ -7,10 +7,10 @@ using ControleFacil.Api.Domain.Models;
 
 namespace ControleFacil.Api.Models
 {
-    public class Apagar : Titulo
+    public class Areceber : Titulo
     {
-        [Required(ErrorMessage = "O campo valor pago é obrigatório")]
-        public double ValorPago { get; set; }
-        public DateTime? DataPagamento { get; set; }
+        [Required(ErrorMessage = "O campo valor recebido é obrigatório")]
+        public double ValorRecebido { get; set; }
+        public DateTime? DataRecebimento { get; set; }
     }
 }

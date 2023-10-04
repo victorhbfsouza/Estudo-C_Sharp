@@ -15,6 +15,8 @@ namespace ControleFacil.Api.Data
 
         public DbSet<Apagar> Apagar { get; set; }
 
+        public DbSet<Apagar> Areceber { get; set; }
+
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -22,6 +24,7 @@ namespace ControleFacil.Api.Data
             modelBuilder.ApplyConfiguration(new UsuarioMap());
             modelBuilder.ApplyConfiguration(new NaturezaDeLancamentoMap());
             modelBuilder.ApplyConfiguration(new ApagarMap());
+            modelBuilder.ApplyConfiguration(new AreceberMap());
         }
     }
 }
