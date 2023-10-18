@@ -1,0 +1,12 @@
+C:\Users\VictorHugoBorgesFran\Desktop\Projetos\Estudo - Csharp\API\Contact\Contact\Contact\bin\Debug\Contact.exe.config
+C:\Users\VictorHugoBorgesFran\Desktop\Projetos\Estudo - Csharp\API\Contact\Contact\Contact\bin\Debug\Contact.exe
+C:\Users\VictorHugoBorgesFran\Desktop\Projetos\Estudo - Csharp\API\Contact\Contact\Contact\bin\Debug\Contact.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Projetos\Estudo - Csharp\API\Contact\Contact\Contact\obj\Debug\Contact.csproj.AssemblyReference.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Projetos\Estudo - Csharp\API\Contact\Contact\Contact\obj\Debug\Contact.Form1.resources
+C:\Users\VictorHugoBorgesFran\Desktop\Projetos\Estudo - Csharp\API\Contact\Contact\Contact\obj\Debug\Contact.Properties.Resources.resources
+C:\Users\VictorHugoBorgesFran\Desktop\Projetos\Estudo - Csharp\API\Contact\Contact\Contact\obj\Debug\Contact.csproj.GenerateResource.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Projetos\Estudo - Csharp\API\Contact\Contact\Contact\obj\Debug\Contact.csproj.CoreCompileInputs.cache
+C:\Users\VictorHugoBorgesFran\Desktop\Projetos\Estudo - Csharp\API\Contact\Contact\Contact\obj\Debug\Contact.exe
+C:\Users\VictorHugoBorgesFran\Desktop\Projetos\Estudo - Csharp\API\Contact\Contact\Contact\obj\Debug\Contact.pdb
+C:\Users\VictorHugoBorgesFran\Desktop\Projetos\Estudo - Csharp\API\Contact\Contact\Contact\bin\Debug\ContactDB.mdf
+C:\Users\VictorHugoBorgesFran\Desktop\Projetos\Estudo - Csharp\API\Contact\Contact\Contact\bin\Debug\ContactDB_log.ldf
