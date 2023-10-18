@@ -79,9 +79,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(458, 105);
+            this.pictureBox1.Location = new System.Drawing.Point(354, 61);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(238, 236);
+            this.pictureBox1.Size = new System.Drawing.Size(317, 262);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -236,7 +236,7 @@
             // contactIdLabel
             // 
             contactIdLabel.AutoSize = true;
-            contactIdLabel.Location = new System.Drawing.Point(67, 105);
+            contactIdLabel.Location = new System.Drawing.Point(33, 64);
             contactIdLabel.Name = "contactIdLabel";
             contactIdLabel.Size = new System.Drawing.Size(69, 16);
             contactIdLabel.TabIndex = 2;
@@ -245,7 +245,7 @@
             // contactIdTextBox
             // 
             this.contactIdTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.peopleBindingSource, "ContactId", true));
-            this.contactIdTextBox.Location = new System.Drawing.Point(149, 102);
+            this.contactIdTextBox.Location = new System.Drawing.Point(115, 61);
             this.contactIdTextBox.Name = "contactIdTextBox";
             this.contactIdTextBox.Size = new System.Drawing.Size(200, 22);
             this.contactIdTextBox.TabIndex = 3;
@@ -253,7 +253,7 @@
             // nameLabel
             // 
             nameLabel.AutoSize = true;
-            nameLabel.Location = new System.Drawing.Point(67, 133);
+            nameLabel.Location = new System.Drawing.Point(33, 92);
             nameLabel.Name = "nameLabel";
             nameLabel.Size = new System.Drawing.Size(47, 16);
             nameLabel.TabIndex = 4;
@@ -262,7 +262,7 @@
             // nameTextBox
             // 
             this.nameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.peopleBindingSource, "Name", true));
-            this.nameTextBox.Location = new System.Drawing.Point(149, 130);
+            this.nameTextBox.Location = new System.Drawing.Point(115, 89);
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.Size = new System.Drawing.Size(200, 22);
             this.nameTextBox.TabIndex = 5;
@@ -270,7 +270,7 @@
             // companyLabel
             // 
             companyLabel.AutoSize = true;
-            companyLabel.Location = new System.Drawing.Point(67, 161);
+            companyLabel.Location = new System.Drawing.Point(33, 120);
             companyLabel.Name = "companyLabel";
             companyLabel.Size = new System.Drawing.Size(68, 16);
             companyLabel.TabIndex = 6;
@@ -279,7 +279,7 @@
             // companyTextBox
             // 
             this.companyTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.peopleBindingSource, "Company", true));
-            this.companyTextBox.Location = new System.Drawing.Point(149, 158);
+            this.companyTextBox.Location = new System.Drawing.Point(115, 117);
             this.companyTextBox.Name = "companyTextBox";
             this.companyTextBox.Size = new System.Drawing.Size(200, 22);
             this.companyTextBox.TabIndex = 7;
@@ -287,7 +287,7 @@
             // telephoneLabel
             // 
             telephoneLabel.AutoSize = true;
-            telephoneLabel.Location = new System.Drawing.Point(67, 189);
+            telephoneLabel.Location = new System.Drawing.Point(33, 148);
             telephoneLabel.Name = "telephoneLabel";
             telephoneLabel.Size = new System.Drawing.Size(76, 16);
             telephoneLabel.TabIndex = 8;
@@ -296,7 +296,7 @@
             // telephoneTextBox
             // 
             this.telephoneTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.peopleBindingSource, "Telephone", true));
-            this.telephoneTextBox.Location = new System.Drawing.Point(149, 186);
+            this.telephoneTextBox.Location = new System.Drawing.Point(115, 145);
             this.telephoneTextBox.Name = "telephoneTextBox";
             this.telephoneTextBox.Size = new System.Drawing.Size(200, 22);
             this.telephoneTextBox.TabIndex = 9;
@@ -304,7 +304,7 @@
             // emailLabel
             // 
             emailLabel.AutoSize = true;
-            emailLabel.Location = new System.Drawing.Point(67, 217);
+            emailLabel.Location = new System.Drawing.Point(33, 176);
             emailLabel.Name = "emailLabel";
             emailLabel.Size = new System.Drawing.Size(44, 16);
             emailLabel.TabIndex = 10;
@@ -313,7 +313,7 @@
             // emailTextBox
             // 
             this.emailTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.peopleBindingSource, "Email", true));
-            this.emailTextBox.Location = new System.Drawing.Point(149, 214);
+            this.emailTextBox.Location = new System.Drawing.Point(115, 173);
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(200, 22);
             this.emailTextBox.TabIndex = 11;
@@ -321,7 +321,7 @@
             // clientLabel
             // 
             clientLabel.AutoSize = true;
-            clientLabel.Location = new System.Drawing.Point(67, 247);
+            clientLabel.Location = new System.Drawing.Point(33, 206);
             clientLabel.Name = "clientLabel";
             clientLabel.Size = new System.Drawing.Size(43, 16);
             clientLabel.TabIndex = 12;
@@ -330,17 +330,18 @@
             // clientCheckBox
             // 
             this.clientCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.peopleBindingSource, "Client", true));
-            this.clientCheckBox.Location = new System.Drawing.Point(149, 242);
+            this.clientCheckBox.Location = new System.Drawing.Point(115, 201);
             this.clientCheckBox.Name = "clientCheckBox";
             this.clientCheckBox.Size = new System.Drawing.Size(200, 24);
             this.clientCheckBox.TabIndex = 13;
             this.clientCheckBox.Text = "checkBox1";
             this.clientCheckBox.UseVisualStyleBackColor = true;
+            this.clientCheckBox.CheckedChanged += new System.EventHandler(this.clientCheckBox_CheckedChanged);
             // 
             // lasCallLabel
             // 
             lasCallLabel.AutoSize = true;
-            lasCallLabel.Location = new System.Drawing.Point(67, 276);
+            lasCallLabel.Location = new System.Drawing.Point(33, 235);
             lasCallLabel.Name = "lasCallLabel";
             lasCallLabel.Size = new System.Drawing.Size(58, 16);
             lasCallLabel.TabIndex = 14;
@@ -349,7 +350,7 @@
             // lasCallDateTimePicker
             // 
             this.lasCallDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.peopleBindingSource, "LasCall", true));
-            this.lasCallDateTimePicker.Location = new System.Drawing.Point(149, 272);
+            this.lasCallDateTimePicker.Location = new System.Drawing.Point(115, 231);
             this.lasCallDateTimePicker.Name = "lasCallDateTimePicker";
             this.lasCallDateTimePicker.Size = new System.Drawing.Size(200, 22);
             this.lasCallDateTimePicker.TabIndex = 15;

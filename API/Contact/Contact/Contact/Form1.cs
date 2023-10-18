@@ -36,5 +36,10 @@ namespace Contact
             this.peopleTableAdapter.Fill(this.contactDBDataSet.People);
 
         }
+
+        private void clientCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

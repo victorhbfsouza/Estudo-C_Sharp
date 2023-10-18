@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CErScWvfG3F+JPbg92STnd6F8OGtAKFspbei8iiVigrMwkpCBLWajXXRoxo5CkI98wPQnUkzMkIODotLH3vIng==",
+  "dgSpecHash": "6jF0Np+ZO4UsfRewOvxK2UuvfO8M8dJg111PC7NP3+TJ8REQcSh9t89qL4X6Kk5U87QeVBisUyH10U3cibHZig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\API\\CardapioOnline\\CardapioOnline\\CardapioOnlineAPI\\CardapioOnlineAPI.csproj",
+  "projectFilePath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Projetos\\Estudo - Csharp\\API\\CardapioOnline\\CardapioOnline\\CardapioOnlineAPI\\CardapioOnlineAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VictorHugoBorgesFran\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\VictorHugoBorgesFran\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

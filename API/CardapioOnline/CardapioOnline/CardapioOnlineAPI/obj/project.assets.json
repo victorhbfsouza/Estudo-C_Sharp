@@ -442,11 +442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\API\\CardapioOnline\\CardapioOnline\\CardapioOnlineAPI\\CardapioOnlineAPI.csproj",
+      "projectUniqueName": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Projetos\\Estudo - Csharp\\API\\CardapioOnline\\CardapioOnline\\CardapioOnlineAPI\\CardapioOnlineAPI.csproj",
       "projectName": "CardapioOnlineAPI",
-      "projectPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\API\\CardapioOnline\\CardapioOnline\\CardapioOnlineAPI\\CardapioOnlineAPI.csproj",
+      "projectPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Projetos\\Estudo - Csharp\\API\\CardapioOnline\\CardapioOnline\\CardapioOnlineAPI\\CardapioOnlineAPI.csproj",
       "packagesPath": "C:\\Users\\VictorHugoBorgesFran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Estudo_POO\\API\\CardapioOnline\\CardapioOnline\\CardapioOnlineAPI\\obj\\",
+      "outputPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Projetos\\Estudo - Csharp\\API\\CardapioOnline\\CardapioOnline\\CardapioOnlineAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\VictorHugoBorgesFran\\AppData\\Roaming\\NuGet\\NuGet.Config",
